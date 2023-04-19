@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import CritiqueThumbnail from "../assets/critique_thumbnail.png";
+import CritiqueOriginal from "../assets/critique_original.png";
 
 export interface Project {
     name: string;
@@ -21,11 +23,16 @@ function project2card(project: Project) {
 }
 
 export default function HomePage() {
-    const projects: Project[] = [];
+    const projects: Project[] = [
+        {
+            name: "Data Visualization Critique",
+            description: "Critique of the CO2 Emission interactive data visualization from Our World in Data",
+            image_url: CritiqueOriginal.src,
+            url: "/critique"
+        }
+    ];
 
-    return <section className="container">
-        <div className="row">
-            {projects.map(project2card)}
-        </div>
+    return <section className="row">
+        {projects.map(project2card)}
     </section>;
 }

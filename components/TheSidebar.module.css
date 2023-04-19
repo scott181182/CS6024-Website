@@ -1,0 +1,15 @@
+
+.sidebar {
+    border-right: 4px solid #38b9fe;
+    background-color: #e0e0e0;
+}
+
+.sidebarHeader {
+    text-decoration: none;
+    color: #222;
+
+    cursor: pointer;
+}
+.sidebarHeader:hover {
+    text-decoration: underline;
+}
