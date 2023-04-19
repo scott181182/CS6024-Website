@@ -2,6 +2,8 @@
 .sidebar {
     border-right: 4px solid #38b9fe;
     background-color: #e0e0e0;
+
+    position: fixed;
 }
 
 .sidebarHeader {

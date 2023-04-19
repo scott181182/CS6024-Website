@@ -2,6 +2,8 @@ import NextLink from "next/link";
 
 import styles from "./TheSidebar.module.css";
 
+
+
 export interface TheSidebarProps {
     className?: string;
 }
