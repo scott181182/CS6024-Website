@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import NextImage from "next/image";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
