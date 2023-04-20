@@ -34,13 +34,13 @@ The website provides well over a dozen separate visualizations provided differen
 This visualization shows annual CO2 emissions over time, starting in 1750. You can select which countries, regions, or continents are shown on the chart. By default, it shows the entire world's annual CO2 emissions.
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/co2_emissions_world.png"/>
+    <img src="./co2_emissions_world.png"/>
 </div>
 
 You could also edit it to show emissions by continent:
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/co2_emissions_continents.png"/>
+    <img src="./co2_emissions_continents.png"/>
 </div>
 
 ## The Users
@@ -50,19 +50,19 @@ These visualizations were made for people who are curious about the sources of C
 The best way to see where the most pollution in the world is coming from is by switching to the **Map** mode from the default **Chart** mode. This reveals a color-coded map of the world where darker red represents higher annual emissions (from the most recent year).
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/co2_emissions_map.png"/>
+    <img src="./co2_emissions_map.png"/>
 </div>
 
 You can adjust the slider to show the same visualization, but with annual emissions data from the specified year. For example, the following figure shows data from 1925.
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/co2_emissions_1925.png"/>
+    <img src="./co2_emissions_1925.png"/>
 </div>
 
 You can also hover over a country to show a quick popup chart of their historical emission trend.
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/co2_emissions_china.png"/>
+    <img src="./co2_emissions_china.png"/>
 </div>
 
 Users could then use the general insights they gained from the map view to dig into more detail and compare historical trends in the chart view. The map view seems to indicate the top polluters include China, India, United States, Japan, Russia, Iran, and Germany. We could then go back to the map view and add those countries to the visualization.
@@ -70,23 +70,23 @@ Users could then use the general insights they gained from the map view to dig i
 <div class="d-flex justify-content-center mb-4">
     <div class="d-flex flex-column">
         <div class="d-flex justify-content-center">
-            <img class="m-2" src="/add_country.png"/>
+            <img class="m-2" src="./add_country.png"/>
         </div>
-        <img class="m-2" src="/choose_data.png"/>
-        <img class="m-2" src="/choose_data_india.png"/>
+        <img class="m-2" src="./choose_data.png"/>
+        <img class="m-2" src="./choose_data_india.png"/>
     </div>
 </div>
 
 The result:
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/top_6.png"/>
+    <img src="./top_6.png"/>
 </div>
 
 If we don't care about the low levels at the beginning of the timeline, we can simply adjust the brush at the bottom:
 
 <div class="d-flex justify-content-center mb-4">
-    <img src="/top_6_brush.png"/>
+    <img src="./top_6_brush.png"/>
 </div>
 
 ## Insights
@@ -123,14 +123,14 @@ Some other things could be directly improved with this visualization:
   * Perhaps this could be changed from a hover trigger to a click trigger
 
 <div class="d-flex justify-content-center mb-2">
-    <img class="border border-danger border-4" src="/hover.png"/>
+    <img class="border border-danger border-4" src="./hover.png"/>
 </div>
 
 * Some users may unknowingly filter to countries AND economic/governmental unions that contain that country, which could be confusing
   * For example, you could show Germany, Russia, France, the United Kingdom, and the European Union, and be quite confused about which makes up which
 
 <div class="d-flex justify-content-center mb-2">
-    <img class="border border-danger border-4" src="/eu.png"/>
+    <img class="border border-danger border-4" src="./eu.png"/>
 </div>
 
 * Using log mode with multiple countries on the chart can make comparison confusing, since people don't often have a good intuition in the exponential domain

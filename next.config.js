@@ -7,7 +7,9 @@ const nextConfig = {
             loader: "raw-loader",
         });
         return config;
-    }
+    },
+
+    basePath: "/uc/cs6024"
 };
 
 module.exports = nextConfig;

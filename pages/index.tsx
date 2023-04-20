@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import CritiqueThumbnail from "../assets/critique_thumbnail.png";
+import NextLink from "next/link";
+
 import CritiqueOriginal from "../assets/critique_original.png";
 
 export interface Project {
@@ -16,7 +17,7 @@ function project2card(project: Project) {
             <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
                 <p className="card-text">{project.description}</p>
-                <a href={project.url} className="btn btn-primary">Go To</a>
+                <NextLink href={project.url} className="btn btn-primary">Go To</NextLink>
             </div>
         </div>
     </div>;
